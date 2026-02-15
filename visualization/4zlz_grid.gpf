@@ -1,0 +1,27 @@
+parameter_file boron-silicon-atom_par.dat
+npts 52 52 52
+gridfld 4zlz_amber.maps.fld
+spacing 0.375
+receptor_types HD C A N NA OA F P SA S Cl Br I Mg Ca Mn Fe Zn
+ligand_types HD C A N NA OA F P SA S Cl Br I Si B
+receptor 4zlz_amber.pdbqt
+gridcenter -19.887 7.584 -3.135
+smooth 0.500
+map 4zlz_amber.HD.map
+map 4zlz_amber.C.map
+map 4zlz_amber.A.map
+map 4zlz_amber.N.map
+map 4zlz_amber.NA.map
+map 4zlz_amber.OA.map
+map 4zlz_amber.F.map
+map 4zlz_amber.P.map
+map 4zlz_amber.SA.map
+map 4zlz_amber.S.map
+map 4zlz_amber.Cl.map
+map 4zlz_amber.Br.map
+map 4zlz_amber.I.map
+map 4zlz_amber.Si.map
+map 4zlz_amber.B.map
+elecmap 4zlz_amber.e.map
+dsolvmap 4zlz_amber.d.map
+dielectric -42.000
